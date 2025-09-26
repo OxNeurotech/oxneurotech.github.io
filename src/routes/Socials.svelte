@@ -3,6 +3,7 @@
 	import Linkedin from '$lib/svg/Linkedin.svelte';
 	import Github from '$lib/svg/Github.svelte';
 	import Mail from '$lib/svg/Mail.svelte';
+	import Logo from '$lib/images/oxneurotech_logo_gold.png'
 </script>
 
 <div class="observe mx-auto mb-14 w-fit">
@@ -11,7 +12,7 @@
 		<Github href={socials.github} />
 		<Mail href={socials.mail} />
 	</div>
-	<div> <img src="src/lib/images/oxneurotech_logo_gold.png" style="display: inline-block; max-width: 60px;">
+	<div> <img src={Logo} style="display: inline-block; max-width: 60px;" alt="Logo">
 	&emsp;
 	© OxNeurotech 2025
 	</div>
