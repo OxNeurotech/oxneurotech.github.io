@@ -162,7 +162,7 @@ export const team = {
 			role: 'Events Coordinator',
 			name: 'Sarah',
 			about: 'Y3 MRes Engineering Science',
-			social: '',
+			social: 'https://www.linkedin.com/in/sarah-schreiber-388587375/',
 		},
 		{
 			img_ref: john_lee_img,
