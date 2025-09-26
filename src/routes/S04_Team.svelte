@@ -1,6 +1,5 @@
 <script lang="ts">
 	import { team } from '$lib/config';
-	import Linkedin from '$lib/svg/Linkedin.svelte';
 	import Section from './Section.svelte';
 </script>
 

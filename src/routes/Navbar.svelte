@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { about, projects, events, team, signup, contact } from "$lib/config";
 	import { navbar } from "$lib/config";
+	import Logo from '$lib/images/oxneurotech_logo_gold.png'
 
 	let open = false;
 	const toggle = () => (open = !open);
@@ -37,7 +38,7 @@
 	style="display: flex; align-items: center; margin: 0; padding-top: 0; padding-bottom: 8px; padding-left: 50px; max-height: 100px;"
 >	
 	<a href="/" class="pull-left" style="max-width: 80px; max-height: 80px;">
-	<img src="src/lib/images/oxneurotech_logo_gold.png" style="display: inline-block;">
+	<img src={Logo} style="display: inline-block;">
 	<!--<span class="z-10 animate-slide-in-0 text-3xl font-semibold text-gold-leaf-500" style="display: inline-block;">{navbar.logo_text}</span>-->
 	</a> 
 	<label for="navbar" class="peer relative size-10 text-gold-leaf-200 md:hidden">
