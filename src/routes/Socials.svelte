@@ -12,8 +12,8 @@
 		<Github href={socials.github} />
 		<Mail href={socials.mail} />
 	</div>
-	<div> <img src={Logo} style="display: inline-block; max-width: 60px;" alt="Logo">
-	&emsp;
+	<div>
+	<!--<img src={Logo} style="display: inline-block; max-width: 60px;" alt="Logo"> &emsp;-->
 	© OxNeurotech 2025
 	</div>
 </div>
