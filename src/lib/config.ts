@@ -83,6 +83,28 @@ export const events = {
 	section_title: 'Events',
 	section_id: 'Events',
 	list: [
+        {
+            title: 'Neurotech Social',
+            points: [
+                "Drinks & Neurotech at King's Arms Pub!"
+            ],
+            tools: ['28 Oct 2025'],
+        },
+        {
+            title: 'Brains & AI',
+            points: [
+                'by Zohar Bronfman',
+                'Co-organised with OXAI, Oxford Founders Society & Oxford Biohacking Society',
+            ],
+            tools: ['22 Oct 2025'],
+        },
+        {
+            title:'Neurotech Intro',
+            points: [
+                'Dr. Joe Troughton, Dr. Birtan Demirel, Dr. Katherine Tourigny, Ioan Whomsley, & more!'
+            ],
+            tools: ['15 Oct 2025'],
+        },
 		{
 			title: 'Speaker Event: The New Physics of Neurons',
 			points: [
@@ -124,6 +146,7 @@ import daniel_costache_img from "$lib/images/daniel_costache.jpg";
 import aditya_khanna_img from "$lib/images/aditya_khanna.jpg";
 import sarah_schreiber_img from "$lib/images/sarah_schreiber.jpg";
 import john_lee_img from "$lib/images/john_lee.jpg";
+import rick_longley_img from "$lib/images/rick_longley.jpg";
 
 export const team = {
 	section_title: 'Team',
@@ -168,9 +191,16 @@ export const team = {
 			img_ref: john_lee_img,
 			role: 'Co-Founder & Advisor',
 			name: 'John Lee',
-			about: 'Grad MEng Engineering Science',
+			about: 'Alum MEng Engineering Science',
 			social: 'https://www.linkedin.com/in/lee-chih-jung/',
 		},
+        {
+            img_ref: rick_longley_img,
+            role: 'Founder',
+            name: 'Rick Longley',
+            about: 'Alum BA Experimental Psych.',
+            social: 'https://www.linkedin.com/in/rick-longley/'
+        },
 	]
 };
 
