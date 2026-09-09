@@ -143,64 +143,121 @@ export const events = {
 import zhiyu_zheng_img from "$lib/images/zhiyu_zheng.jpg";
 import mattan_pelah_img from "$lib/images/mattan_pelah.jpg";
 import daniel_costache_img from "$lib/images/daniel_costache.jpg";
-import aditya_khanna_img from "$lib/images/aditya_khanna.jpg";
-import sarah_schreiber_img from "$lib/images/sarah_schreiber.jpg";
+import sarah_schreiber_img from "$lib/images/sarah_schreiber.png";
 import john_lee_img from "$lib/images/john_lee.jpg";
 import rick_longley_img from "$lib/images/rick_longley.jpg";
+import manuel_san_silvestre_img from "$lib/images/manuel_san_silvestre.png";
+import joseph_balfe_img from "$lib/images/joseph_balfe.png";
+import leanne_mabena_img from "$lib/images/leanne_mabena.jpeg";
+import mia_gemayel_img from "$lib/images/mia_gemayel.jpeg";
+import sheen_bendon_img from "$lib/images/sheen_bendon.jpeg";
+import david_nimrichtr_img from "$lib/images/david_nimrichtr.jpeg";
 
 export const team = {
 	section_title: 'Team',
 	section_id: 'Team',
+	senior_title: 'Senior Committee',
 	list: [
 		{
+			img_ref: mattan_pelah_img,
+			role: 'President, Founder',
+			name: 'Mattan Pelah',
+			about: 'Y2 DPhil Neuroengineering',
+			social: 'https://www.linkedin.com/in/mattan-pelah/',
+		},
+		{
+			img_ref: mia_gemayel_img,
+			role: 'VP of Events',
+			name: 'Mia Gemayel',
+			about: 'Y2 DPhil Neuropharmacology',
+			social: '',
+		},
+		{
+			img_ref: manuel_san_silvestre_img,
+			role: 'VP of Sponsorships',
+			name: 'Manuel San Silvestre, MD',
+			about: 'Y2 MS Neuroscience',
+			social: '',
+		},
+		{
+			img_ref: sarah_schreiber_img,
+			role: 'Treasurer, Founder',
+			name: 'Sarah Schreiber',
+			about: 'Y1 DPhil Clinical Neuroscience',
+			social: 'https://www.linkedin.com/in/sarah-schreiber-388587375/',
+		},
+		{
+			img_ref: leanne_mabena_img,
+			role: 'Secretary',
+			name: 'Leanne Mabena',
+			about: 'Y3 MBBS',
+			social: '',
+		},
+		{
+			img_ref: joseph_balfe_img,
+			role: 'Welfare Officer',
+			name: 'Joseph Balfe',
+			about: 'Y3 DPhil Psychiatry',
+			social: '',
+		},
+		{
+			img_ref: sheen_bendon_img,
+			role: 'Merchandise Officer',
+			name: 'Sheen Bendon',
+			about: 'Y4 MS Physics',
+			social: '',
+		},
+		{
+			img_ref: david_nimrichtr_img,
+			role: 'IT Officer',
+			name: 'David Theodor Nimrichtr',
+			about: 'Y2 MS Biomedical Sciences',
+			social: '',
+		},
+	],
+	senior_list: [
+		{
 			img_ref: zhiyu_zheng_img,
-			role: 'President',
+			role: 'President, Founder',
 			name: 'Zhiyu Zheng (Jerry)',
 			about: 'Y4 DPhil Clinical Neurosciences',
 			social: 'https://www.linkedin.com/in/zzyicl/',
 		},
 		{
 			img_ref: mattan_pelah_img,
-			role: 'Secretary',
+			role: 'Secretary, Founder',
 			name: 'Mattan Pelah',
-			about: 'Y1 DPhil Clinical Neuroengineering',
+			about: 'Y2 DPhil Neuroengineering',
 			social: 'https://www.linkedin.com/in/mattan-pelah/',
 		},
 		{
 			img_ref: daniel_costache_img,
-			role: 'Treasurer',
+			role: 'Treasurer, Founder',
 			name: 'Daniel Costache',
 			about: 'Y4 MEng Engineering Science',
 			social: 'https://www.linkedin.com/in/costache-daniel/',
 		},
 		{
-			img_ref: aditya_khanna_img,
-			role: 'Welfare Officer',
-			name: 'Aditya Khanna',
-			about: 'Y3 MPhys Physics',
-			social: 'https://www.linkedin.com/in/aditya-khanna-1b901b200/',
-		},
-		{
 			img_ref: sarah_schreiber_img,
-			role: 'Events Coordinator',
-			name: 'Sarah',
-			about: 'Y3 MRes Engineering Science',
+			role: 'Events Officer, Founder',
+			name: 'Sarah Schreiber',
+			about: 'Y1 DPhil Clinical Neuroscience',
 			social: 'https://www.linkedin.com/in/sarah-schreiber-388587375/',
 		},
 		{
 			img_ref: john_lee_img,
-			role: 'Co-Founder & Advisor',
+			role: 'Senior Advisor, Founder',
 			name: 'John Lee',
 			about: 'Alum MEng Engineering Science',
 			social: 'https://www.linkedin.com/in/lee-chih-jung/',
 		},
-        {
-            img_ref: rick_longley_img,
-            role: 'Founder',
-            name: 'Rick Longley',
-            about: 'Alum BA Experimental Psych.',
-            social: 'https://www.linkedin.com/in/rick-longley/'
-        },
+		{
+			img_ref: rick_longley_img,
+			role: 'Senior Advisor, Founder',
+			name: 'Rick Longley',
+			about: 'Alum BA Experimental Psych.',
+			social: 'https://www.linkedin.com/in/rick-longley/'
+		},
 	]
 };
 

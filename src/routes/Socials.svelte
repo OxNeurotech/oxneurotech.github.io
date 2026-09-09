@@ -14,7 +14,7 @@
 	</div>
 	<div>
 	<!--<img src={Logo} style="display: inline-block; max-width: 60px;" alt="Logo"> &emsp;-->
-	© OxNeurotech 2025
+	© OxNeurotech 2026
 	</div>
 </div>
 
