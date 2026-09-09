@@ -33,7 +33,10 @@ jobs:
       - name: Install pnpm
         uses: pnpm/action-setup@v3
         with:
-          version: latest
+          # Pinned to the major that generated pnpm-lock.yaml (lockfileVersion 9.0).
+          # pnpm 10 refuses to run dependency build scripts (sharp, esbuild) and
+          # fails the install with ERR_PNPM_IGNORED_BUILDS.
+          version: 9
       - name: Set up Node
         uses: actions/setup-node@v4
         with:
