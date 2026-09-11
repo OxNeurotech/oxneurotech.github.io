@@ -83,6 +83,48 @@ export const events = {
 	section_title: 'Events',
 	section_id: 'Events',
 	list: [
+		{
+			title: 'Speaker Event: Neurotechnology to Map Structure & Function in the Brain',
+			points: [
+				'by Prof. Andreas Schaefer',
+				'Co-organised with the Cortex Club'
+			],
+			tools: ['03 Jun 2026'],
+		},
+		{
+			title: 'Speaker Event: The Science of Stress and the Rise of Neuromodulation',
+			points: [
+				'by Vitalijus Majorovas & Dr. Jonė Pukėnaitė',
+				'Co-organised with EnSpire Oxford & Pulsetto'
+			],
+			tools: ['21 May 2026'],
+		},
+		{
+			title: 'Speaker Event: OPM-izing How We See the Brain',
+			points: [
+				'by Caroline Nettekoven & Beatriz Silveira de Arruda',
+				'Quantum sensors for magnetoencephalography',
+				'Co-organised with the Cortex Club'
+			],
+			tools: ['27 Feb 2026'],
+		},
+		{
+			title: 'Neurotech in Clinic',
+			points: [
+				'by Sheikh Momin & Rachel Crockett',
+				'Ultrasound, deep brain stimulation & more',
+				"Hosted at St Hilda's College"
+			],
+			tools: ['04 Dec 2025'],
+		},
+		{
+			title: 'Speaker Event: Unlocking Cognition with BCIs',
+			points: [
+				'by Prof. Marcus Kaiser',
+				'BCIs, non-invasive stimulation & machine learning'
+			],
+			tools: ['07 Nov 2025'],
+		},
         {
             title: 'Neurotech Social',
             points: [
@@ -170,14 +212,14 @@ export const team = {
 			role: 'VP of Events',
 			name: 'Mia Gemayel',
 			about: 'Y2 DPhil Neuropharmacology',
-			social: '',
+			social: 'https://www.linkedin.com/in/mia-gemayel-07a517252/',
 		},
 		{
 			img_ref: manuel_san_silvestre_img,
 			role: 'VP of Sponsorships',
 			name: 'Manuel San Silvestre, MD',
 			about: 'Y2 MS Neuroscience',
-			social: '',
+			social: 'https://www.linkedin.com/in/manuel-rico-fernandez-san-silvestre/',
 		},
 		{
 			img_ref: sarah_schreiber_img,
@@ -191,28 +233,28 @@ export const team = {
 			role: 'Secretary',
 			name: 'Leanne Mabena',
 			about: 'Y3 MBBS',
-			social: '',
+			social: 'https://www.linkedin.com/in/leanne-mabena-28a0a22a3/',
 		},
 		{
 			img_ref: joseph_balfe_img,
 			role: 'Welfare Officer',
 			name: 'Joseph Balfe',
 			about: 'Y3 DPhil Psychiatry',
-			social: '',
+			social: 'https://www.linkedin.com/in/joseph-balfe-09a3081a8/',
 		},
 		{
 			img_ref: sheen_bendon_img,
 			role: 'Merchandise Officer',
 			name: 'Sheen Bendon',
 			about: 'Y4 MS Physics',
-			social: '',
+			social: 'https://www.linkedin.com/in/sheen-bendon-a79358251/',
 		},
 		{
 			img_ref: david_nimrichtr_img,
 			role: 'IT Officer',
 			name: 'David Theodor Nimrichtr',
 			about: 'Y2 MS Biomedical Sciences',
-			social: '',
+			social: 'https://www.linkedin.com/in/david-theodor-nimrichtr/',
 		},
 	],
 	senior_list: [
