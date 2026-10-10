@@ -7,6 +7,16 @@
 	{#each contact.paragraphs as paragraph}
 		<p>{@html paragraph}</p>
 	{/each}
+
+	<div
+		data-socials-destination
+		class="hidden h-6 grid-cols-[7rem_7rem_7rem] gap-6 md:grid"
+		aria-hidden="true"
+	>
+		<div data-social-destination></div>
+		<div data-social-destination></div>
+		<div data-social-destination></div>
+	</div>
 	
 	<slot></slot>
 </Section>

@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+	background-color: #0d1836;
+}
+
 .scrollbar-none {
 	scrollbar-width: none; /* for Firefox */
 	-ms-overflow-style: none; /* for Internet Explorer, Edge */

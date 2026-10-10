@@ -22,7 +22,11 @@
 		<div class="mx-5">
 		<div class="translate-y h-1 w-full bg-coral-blush-700"></div>
 			<div class="group relative translate-y-3 mx-auto mb-auto flex max-h-180 max-w-180 justify-center">
-			<enhanced:img src="$lib/images/group-meeting-jun2023.jpg" class="rounded" alt="Portrait" />
+			<enhanced:img
+				src="$lib/images/oxneurotech-group-golden-gate.jpg"
+				class="rounded"
+				alt="Oxford Neurotech Society members together by the Golden Gate Bridge"
+			/>
 		</div>
 		<div class="translate-y-6 h-1 w-full bg-pale-sky-700"></div>
 	</div>

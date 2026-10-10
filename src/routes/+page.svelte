@@ -1,5 +1,6 @@
 <script lang="ts">
 	import Navbar from './Navbar.svelte';
+	import BackgroundTrail from './BackgroundTrail.svelte';
 	import S00_Landing from './S00_Landing.svelte';
 	import S01_About from './S01_About.svelte';
 	import S02_Projects from './S02_Projects.svelte';
@@ -58,13 +59,16 @@
 	});
 </script>
 
-<Navbar />
-<S00_Landing />
-<S01_About />
-<S02_Projects />
-<S03_Events />
-<S04_Team />
-<S05_Signup />
-<S06_Contact />
-<Socials />
-<div class="end h-1" />
+<BackgroundTrail />
+<div class="relative z-10">
+	<Navbar />
+	<S00_Landing />
+	<S01_About />
+	<S02_Projects />
+	<S03_Events />
+	<S04_Team />
+	<S05_Signup />
+	<S06_Contact />
+	<Socials />
+	<div class="end h-1" />
+</div>

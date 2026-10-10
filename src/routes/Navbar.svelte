@@ -71,6 +71,17 @@
 			<div
 				class="fixed right-0 top-[50vh] z-20 my-auto flex -translate-y-1/2 translate-x-full flex-col items-center justify-center transition duration-500 ease-in-out peer-checked:-translate-x-[calc(37.5vw-50%)]"
 			>
+				<a
+					href="/hackathon"
+					class="group/section min-w-32 space-y-0.5 py-4"
+					onclick={toggle}
+				>
+					<div
+						class="text-center font-mono text-lg text-coral-blush-400 transition duration-300 group-hover/section:text-coral-blush-200"
+					>
+						Hackathon 2026
+					</div>
+				</a>
 				{#each sections as section, i}
 					<a
 						href={i + 1 != 0 ? `#${section.toLowerCase()}` : ''}
@@ -92,6 +103,13 @@
 	/>
 	<div class="hidden md:flex">
 		<!-- animate-slide-in-1 animate-slide-in-2 animate-slide-in-3 animate-slide-in-4 animate-slide-in-5 -->
+		<a href="/hackathon" class="group flex items-center space-x-1 px-3 animate-slide-in-1">
+			<div
+				class="text-center font-mono text-sm text-coral-blush-400 transition duration-300 group-hover:text-coral-blush-200"
+			>
+				Hackathon 2026
+			</div>
+		</a>
 		{#each sections as section, i}
 			<a
 				href={i + 1 != 0 ? `#${section.toLowerCase()}` : ''}
