@@ -246,8 +246,9 @@
           </p>
           <p>
             You do not need a polished idea or a pre-formed team. Bring your
-            skills, curiosity, and willingness to build. Whether this is your
-            first hackathon or your tenth, you are welcome.
+            skills, curiosity, and willingness to build. Teams can have up to
+            5 members. Whether this is your first hackathon or your tenth, you
+            are welcome.
           </p>
           <div
             class="rounded-lg border border-mint-tulip-400/25 bg-mint-tulip-400/5 p-6 text-base"
