@@ -260,7 +260,7 @@ export const team = {
       img_ref: leanne_mabena_img,
       role: "Secretary",
       name: "Leanne Mabena",
-      about: "Y3 MBBS",
+      about: "Y3 MBBS Medicine",
       social: "https://www.linkedin.com/in/leanne-mabena-28a0a22a3/",
     },
     {
