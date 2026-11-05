@@ -221,6 +221,7 @@ import leanne_mabena_img from "$lib/images/leanne_mabena.jpeg";
 import mia_gemayel_img from "$lib/images/mia_gemayel.jpeg";
 import sheen_bendon_img from "$lib/images/sheen_bendon.jpeg";
 import david_nimrichtr_img from "$lib/images/david_nimrichtr.jpeg";
+import junyi_zhao_img from "$lib/images/junyi_zhao.png";
 
 export const team = {
   section_title: "Team",
@@ -231,21 +232,21 @@ export const team = {
       img_ref: mattan_pelah_img,
       role: "President, Founder",
       name: "Mattan Pelah",
-      about: "Y2 DPhil Neuroengineering",
+      about: "Y3 DPhil Neuroengineering",
       social: "https://www.linkedin.com/in/mattan-pelah/",
     },
     {
       img_ref: mia_gemayel_img,
       role: "VP of Events",
       name: "Mia Gemayel",
-      about: "Y2 DPhil Neuropharmacology",
+      about: "Y3 DPhil Neuropharmacology",
       social: "https://www.linkedin.com/in/mia-gemayel-07a517252/",
     },
     {
       img_ref: manuel_san_silvestre_img,
       role: "VP of Sponsorships",
       name: "Manuel San Silvestre, MD",
-      about: "Y2 MS Neuroscience",
+      about: "Y1 DPhil Neuroscience",
       social:
         "https://www.linkedin.com/in/manuel-rico-fernandez-san-silvestre/",
     },
@@ -267,7 +268,7 @@ export const team = {
       img_ref: joseph_balfe_img,
       role: "Welfare Officer",
       name: "Joseph Balfe",
-      about: "Y3 DPhil Psychiatry",
+      about: "Y2 DPhil Psychiatry",
       social: "https://www.linkedin.com/in/joseph-balfe-09a3081a8/",
     },
     {
@@ -284,6 +285,14 @@ export const team = {
       about: "Y2 MS Biomedical Sciences",
       social: "https://www.linkedin.com/in/david-theodor-nimrichtr/",
     },
+    {
+      // TODO: LinkedIn still to be provided
+      img_ref: junyi_zhao_img,
+      role: "Project Lead",
+      name: "Junyi Zhao",
+      about: "Postdoc Materials Science",
+      social: "",
+    },
   ],
   senior_list: [
     {
@@ -297,7 +306,7 @@ export const team = {
       img_ref: mattan_pelah_img,
       role: "Secretary, Founder",
       name: "Mattan Pelah",
-      about: "Y2 DPhil Neuroengineering",
+      about: "Y3 DPhil Neuroengineering",
       social: "https://www.linkedin.com/in/mattan-pelah/",
     },
     {
