@@ -36,7 +36,7 @@ export const about = {
   section_title: "About",
   section_id: "About",
   paragraphs: [
-    `Founded in June 2023, OxNeurotech is Oxford University's student-led society dedicated to advancing the field of neurotechnology,
+    `Founded in June 2022, OxNeurotech is Oxford University's student-led society dedicated to advancing the field of neurotechnology,
 		 the first within the UK.`,
     `We bring together students from diverse backgrounds in neuroscience, computer science, physics, engineering, and beyond,
 		 as we aim to provide a collaborative platform for exploring the intersection between brain science and technology. We do this through:`,
